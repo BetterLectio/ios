@@ -18,6 +18,7 @@
 		AB3794332A81A58800EF2813 /* app.py in Resources */ = {isa = PBXBuildFile; fileRef = AB3794322A81A58800EF2813 /* app.py */; };
 		AB3794352A81A5AB00EF2813 /* PythonScripts in Resources */ = {isa = PBXBuildFile; fileRef = AB3794342A81A5AB00EF2813 /* PythonScripts */; };
 		AB3794372A81A6D700EF2813 /* platform-site in Resources */ = {isa = PBXBuildFile; fileRef = AB3794362A81A6D700EF2813 /* platform-site */; };
+		AB8FDEE22A824FB60041916D /* PythonDependencies in Resources */ = {isa = PBXBuildFile; fileRef = AB8FDEE12A824FB60041916D /* PythonDependencies */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		AB3794322A81A58800EF2813 /* app.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = app.py; sourceTree = "<group>"; };
 		AB3794342A81A5AB00EF2813 /* PythonScripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PythonScripts; sourceTree = "<group>"; };
 		AB3794362A81A6D700EF2813 /* platform-site */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "platform-site"; sourceTree = "<group>"; };
+		AB8FDEE12A824FB60041916D /* PythonDependencies */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PythonDependencies; path = Contents/PythonDependencies; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		AB3793FC2A81978500EF2813 = {
 			isa = PBXGroup;
 			children = (
+				AB8FDEE12A824FB60041916D /* PythonDependencies */,
 				AB3794312A81A57B00EF2813 /* PythonScripts */,
 				AB3794342A81A5AB00EF2813 /* PythonScripts */,
 				AB37941D2A81994900EF2813 /* Contents */,
@@ -106,6 +109,7 @@
 		AB37941D2A81994900EF2813 /* Contents */ = {
 			isa = PBXGroup;
 			children = (
+				AB8FDEE02A824E0E0041916D /* PythonDependencies */,
 				AB3794162A81983E00EF2813 /* Frameworks */,
 				AB3794172A81984500EF2813 /* Resources */,
 			);
@@ -118,6 +122,13 @@
 				AB3794322A81A58800EF2813 /* app.py */,
 			);
 			path = PythonScripts;
+			sourceTree = "<group>";
+		};
+		AB8FDEE02A824E0E0041916D /* PythonDependencies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PythonDependencies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB8FDEE22A824FB60041916D /* PythonDependencies in Resources */,
 				AB3794372A81A6D700EF2813 /* platform-site in Resources */,
 				AB3794352A81A5AB00EF2813 /* PythonScripts in Resources */,
 				AB3794102A81978700EF2813 /* Preview Assets.xcassets in Resources */,
@@ -351,10 +363,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mobile/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -379,10 +395,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mobile/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
